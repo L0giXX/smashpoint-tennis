@@ -1,4 +1,4 @@
-import Home from "./routes/home";
+import Home from "./routes/home/home";
 import Mitgliedschaft from "./routes/mitgliedschaft";
 import Navbar from "./components/navbar";
 import { Route, Routes } from "react-router-dom";

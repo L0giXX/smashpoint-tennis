@@ -3,6 +3,7 @@ import "./home.css";
 import tennis from "../assets/undraw_grand_slam_84ep.svg";
 export default function Home() {
   return (
+<<<<<<< HEAD:client/src/routes/home.tsx
     <div className="grid grid-cols-2 w-screen h-screen bg-gray-200">
       <div className="mt-28 ml-20 max-w-xl p-6 border h-min border-gray-200 rounded-lg shadow bg-gray-900">
         <h2 className="mx-auto text-center mt-2 mb-2 text-3xl font-bold tracking-tight text-white">
@@ -27,6 +28,10 @@ export default function Home() {
       <div className="mt-[120px] mx-20">
         <img src={tennis}></img>
       </div>
+=======
+    <div className="Home">
+      <div></div>
+>>>>>>> 14fb02971e998fe7a2f55e51d6f5129aeba1c6d3:client/src/routes/home/home.tsx
     </div>
   );
 }
