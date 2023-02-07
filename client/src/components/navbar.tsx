@@ -2,7 +2,7 @@ import "../index.css";
 import sp_lounge from "../assets/sp_lounge_b_sm_team.jpg";
 export default function Navbar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className="bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5 rounded">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <img
